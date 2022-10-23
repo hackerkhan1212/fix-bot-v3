@@ -25,9 +25,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Karachi').format('HH')
+    let wibm = moment.tz('Asia/Karachi').format('mm')
+    let wibs = moment.tz('Asia/Karachi').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -47,45 +47,46 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
     
 /*============== SOCIAL ==============*/
 
-// kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
+// if you don't have it, type "-" or leave it alone so it gets credits :v
 
-global.sig = 'https://instagram.com/_ctzhid' // ig
-global.sgh = 'https://github.com/WH-MODS-BOT/' // github
-global.sgc = 'https://chat.whatsapp.com/FQkbyTEfvES3D363uxMEFOI' // group whatsapp
+global.sig = 'https://instagram.com/its_ibrahim_2004' // ig
+global.sgh = 'https://github.com/Thewiskey/' // github
+global.sgc = 'https://chat.whatsapp.com/' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
-global.snh = 'https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow' // my youtube channel
+global.snh = 'https://www.youtube.com/' // my youtube channel
 global.sfb = 'https://www.facebook.com/' // facebook
 global.syt = 'https://www.youtube.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '08XXXXXXXXXX' //dana
-global.povo = '08XXXXXXXXXX' //ovo
-global.pgopay = '08XXXXXXXXXX' //gopay
-global.plinkaja = '08XXXXXXXXXX' //link aja
-global.ppulsa = '08XXXXXXXXXX' //telkomsel
-global.ppulsa2 = '08XXXXXXXXXX' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.com/mrw4h1d'
+global.pdana = '+923229931076' //dana
+global.povo = '923229931076' //ovo
+global.pgopay = '923229931076' //gopay
+global.plinkaja = '923229931076' //link aja
+global.ppulsa = '923229931076' //telkomsel
+global.ppulsa2 = '923229931076' // kalau ada kartu lain isi aja
+global.psaweria = ''
 
 /*============== NOMOR ==============*/
-global.nomorbot = '62XXXXXXXXXXX'
-global.nomorown = '6282127487538'
-global.namebot = 'WH-MODS-BOT-V1'
-global.nameown = 'WH MODS DEV'
+global.nomorbot = '923229931076'
+global.nomorown = '923229931076'
+global.namebot = '𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦'
+global.nameown = '𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦'
 
 /*============== Github Thanks To ==============*/
-global.namagithub = 'Nama Github Belum Diisi' // nama github lu
-global.linkgithub = 'Link Githu Belum Diisi' // tarok link github lu
+global.namagithub = 'none' // nama github lu
+global.linkgithub = 'none' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
 
 /*============== APIKEY SIMPEL ==============*/
-global.zenzkey = 'b8040941f7'
+global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
+global.zenzkey = keysZens[Math.floor(keysZens.length * Math.random())]
 global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182c16
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282127487538', 'WH MODS DEV', true],
+  ['923229931076a', '𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
@@ -138,14 +139,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 WH-MODS-BOT-V1 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘WH-MODS-BOT-V1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ WH-MODS-BOT-V1 '
+global.wm = '                「 𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By WH-MODS-DEV`
+global.titlebot = `⫹⫺ WhatsApp Bot | By 𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 WH-MODS-BOT-V1  あ」'
+global.author = '                「 𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦  あ」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -154,11 +155,11 @@ global.thumbdoc = 'https://telegra.ph/file/6e45318d7c76f57e4a8bd.jpg'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://i.ibb.co/XZrK6yQ/transformers.jpg' //Main Thumbnail
-global.imagebot = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumb = 'https://ibb.co/vDQkmFV' //Main Thumbnail
+global.imagebot = 'https://ibb.co/vDQkmFV'
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
-global.thumbs = ['https://i.ibb.co/XZrK6yQ/transformers.jpg']
-global.fla = 'https://i.ibb.co/XZrK6yQ/transformers.jpg'
+global.thumbs = ['https://ibb.co/vDQkmFV']
+global.fla = 'https://ibb.co/vDQkmFV'
 global.thumbnailUrl = [
 'https://telegra.ph/file/81260a8b9e8cff26d2b48.jpg','https://telegra.ph/file/ac4928f0824a2a0492737.jpg',
 'https://telegra.ph/file/6359b013bc7e52c3b346f.jpg','https://telegra.ph/file/d43c89a5d2da72875ec05.jpg',
@@ -636,8 +637,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = 'WH-MODS-BOT-V1'
-global.stickauth = `By ©WH-MODS-DEV`
+global.stickpack = '𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦'
+global.stickauth = `𝐈𝐭𝐱_𝐈𝐛𝐫𝐚𝐡𝐢𝐦`
 
 global.multiplier = 38 // The higher, The harder levelup
 
